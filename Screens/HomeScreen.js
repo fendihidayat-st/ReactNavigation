@@ -11,6 +11,7 @@ const HomeScreen = props => {
         title="Go to Profile"
         onPress={() => props.navigation.navigate('Profile')}
       />
+      <Button title="Check User" onPress={() => props.navigation.replace('User')} />
     </View>
   );
 };

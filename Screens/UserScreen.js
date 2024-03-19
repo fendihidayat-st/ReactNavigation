@@ -5,7 +5,11 @@ const UserScreen = ({navigation}) => {
   return (
     <View style={styles.viewStyle}>
       <Text>React Navigation</Text>
-      <Text style={styles.textStyle}>This is Profile Screen</Text>
+      <Text style={styles.textStyle}>This is User Screen</Text>
+      <Button
+        title="Go to Profile"
+        onPress={() => navigation.navigate('Profile')}
+      />
       <Button title="Go To Home" onPress={() => navigation.replace('Home')} />
     </View>
   );

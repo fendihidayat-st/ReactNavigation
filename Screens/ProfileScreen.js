@@ -7,6 +7,7 @@ const ProfileScreen = ({navigation}) => {
       <Text>React Navigation</Text>
       <Text style={styles.textStyle}>This is Profile Screen</Text>
       <Button title="Go To Home" onPress={() => navigation.replace('Home')} />
+      <Button title="Check User" onPress={() => navigation.replace('User')} />
     </View>
   );
 };
